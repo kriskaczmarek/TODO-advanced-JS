@@ -12,48 +12,52 @@
 
 <body>
     <div class="todo">
+
         <div class="header">
             <h1>ToDo List</h1>
-            <input type="text" class="todo-input" placeholder="wpisz treść zadania" />
+            <input type="text" placeholder="Wpisz treść zadania" class="todo-input" />
             <button class="add-btn">Add</button>
         </div>
+
         <div class="todo-list">
             <h3>Lista zadań:</h3>
             <p class="alert-info">Brak zadań na liscie</p>
             <ul>
-                <li id="test">Wypic kawę
+                <li id="test">Wypić kawę
                     <div class="tools">
-                        <button class="complete"><i class="fas fa-check"></i></button>
+                        <button class="complete"><i class="fa-solid fa-check"></i></button>
                         <button class="edit">EDIT</button>
-                        <button class="delete"><i class="fas fa-times"></i></button>
+                        <button class="delete"><i class="fa-solid fa-xmark"></i></button>
                     </div>
                 </li>
                 <li id="test">Zjeść śniadanie
                     <div class="tools">
-                        <button class="complete"><i class="fas fa-check"></i></button>
+                        <button class="complete"><i class="fa-solid fa-check"></i></button>
                         <button class="edit">EDIT</button>
-                        <button class="delete"><i class="fas fa-times"></i></button>
+                        <button class="delete"><i class="fa-solid fa-xmark"></i></button>
                     </div>
                 </li>
-                <li id="test">Umyć okna
+                <li id="test">Umyc okna
                     <div class="tools">
-                        <button class="complete"><i class="fas fa-check"></i></button>
+                        <button class="complete"><i class="fa-solid fa-check"></i></button>
                         <button class="edit">EDIT</button>
-                        <button class="delete"><i class="fas fa-times"></i></button>
+                        <button class="delete"><i class="fa-solid fa-xmark"></i></button>
                     </div>
                 </li>
             </ul>
         </div>
     </div>
+
     <div class="popup">
         <h3>Edytuj zadanie:</h3>
         <div class="popup-body">
             <p class="popup-info"></p>
-            <input type="text" placeholder="wprowadź nowa treść zadania" class="popup-info">
-            <button class="popup-btn accept">ZATWIERDŹ</button>
-            <button class="popup-btn cancel">ANULUJ</button>
+            <input class='popup-input' type="text" placeholder="wprowadź nową treść zadania" />
+            <button class="popup-btn accept">Zatwierdź</button>
+            <button class="popup-btn cancel">Anuluj</button>
         </div>
     </div>
+
 
     <script src="script.js"></script>
 </body>
